@@ -1,0 +1,66 @@
+<!--
+  /src/partials/site-header.html
+  Header HTML Partial.
+  Author: TheDevMystic
+-->
+
+<!-- Site Header -->
+<header class="site-header">
+
+  <div class="skip-to-main-content">
+    Skip to Main Content
+  </div>
+  
+  <!-- Site Logo -->
+  <div class="site-logo">
+
+    <!-- Home Link -->
+    <a href="/"
+      class="site-logo__href"
+      title="Homepage">
+      
+      <!-- Site Logo image -->
+      <img src="/images/site-logo.svg" alt="Site Logo" class="site-logo__image">
+
+      <!-- Site Logo text -->
+      <div class="site-logo__text">
+        TheDevMystic
+      </div>
+    </a>
+  </div>
+
+  <!-- Main Navigation Bar -->
+  <nav class="navigation-bar" aria-label="Main Navigation Bar">
+
+    <!-- Hamburger Button -->
+    <button type="button"
+      class="navigation-bar__hamburger-menu"
+      aria-label="Toggle Hamburger Menu"
+      aria-expanded="false">
+      <!-- Hamburger image -->
+      <img src="images/hamburger.svg" alt="Menu">
+    </button>
+
+    <!-- Navigation Links -->
+    <ul class="navigation-bar__navigation-links">
+      <!-- Homepage -->
+      <li><a href="/">Home</a></li>
+      <!-- Blog Section -->
+      <li><a href="/blog">Blog</a></li>
+      <!-- Research Papers -->
+      <li><a href="/research">Research</a></li>
+      <!-- Projects -->
+      <li><a href="/projects">Projects</a></li>
+      <!-- About Section -->
+      <li><a href="/about">About</a></li>
+      <!-- Search Page -->
+      <li><a href="/search"><img src="/images/search-icon.svg" alt="Search"></a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<!-- Settings Button -->
+<button class="setting-wheel">
+  <img src="setting-cog-wheel.svg" alt="Settings" class="setting-wheel__image">
+</button>
