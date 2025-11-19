@@ -1,6 +1,8 @@
-MIT License
+SOURCE CODE
 
-Copyright (c) 2025 Surya!
+Source code is held under MIT LICENSE.
+
+Copyright (c) 2025 Suryansh Singh (TheDevMystic)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +21,25 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+----------------------------------------------------------------------------------------------
+
+IMPORTANT NOTICE REGARDING PROJECT ASSETS AND CREATIVE WORKS
+
+While the source code is provided under the MIT License, this license DOES NOT apply to the project's non-code creative materials and assets.
+
+This includes, without limitation:
+
+- All images, videos, audio, and media files (e.g., files in /assets/, /images/, /favicons/, /logos/, /media/, etc.).
+- All logos, trademarks, and brand identity materials.
+- All non-code documentation and related research papers (e.g., PDF, DOCX, or separate Markdown files).
+- All written contents and creative work (e.g., JSX, TSX, HTML, etc,).
+
+These specific materials are held under a separate and restrictive copyright:
+
+COPYRIGHT (c) 2025 Suryansh Singh (TheDevMystic) All Rights Reserved.
+
+Any reproduction, modification, or redistribution of the above-listed assets requires the express written permission of the copyright holder.
+
+THE MIT LICENSE ONLY APPLIES TO THE SOURCE CODE AND DOES NOT EXTEND TO ANY ASSETS OR WRITTEN CONTENT IDENTIFIED IN THE NOTICE ABOVE.
+
