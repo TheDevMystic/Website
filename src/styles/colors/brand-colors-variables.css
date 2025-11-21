@@ -1,0 +1,115 @@
+/**
+ * @file /src/styles/colors/brand-colors-variables.css
+ * @description Brand colors for styling alongside TailwindCSS.
+ */
+
+/**
+ * Variable: Brand Colors (Light Theme)
+ * @description Brand color variables for light theme.
+ */
+:root {
+  /** Backgrounds **/
+  --color-background-base: #f9fbf9;    /** Overall Bg (light) **/
+  --color-background-code: #f9f5d7;    /** Code Bg (light) **/
+  --color-background-feature: #f1f8f5; /** Feature Bg (light) **/
+  --color-background-banner: #d6ece7;  /** Banner Bg (light) **/
+
+  /** Accent **/
+  --color-accent: #2c6975; /** Accent Color (light) **/
+
+  /** Status/Feedback **/
+  --color-feedback-success: #4c7f53; /** Success Feedback (light) **/
+  --color-feedback-warning: #d49a37; /** Warning Feedback (light) **/
+  --color-feedback-failure: #8b3a3a; /** Failure Feedback (light) **/
+
+  /** Shadow Color **/
+  --color-shadow: 33, 43, 50; /** Shadow RGB (light) **/
+
+  /** Text Colors **/
+  --color-text-heading: #1f3b4d; /** H1 - H6 Color (light) **/
+  --color-text-body: #2e2e2e; /** Default body text color (light) **/
+  --color-text-paragraph: #4a4a4a; /** Paragraph Color (light) **/
+  --color-text-link: #2c6975; /** Link Text (light) **/
+  --color-text-hover: #4fb3b3; /** Hover Text (light) **/
+  --color-text-focus: #2c6975; /** Focus Text (light) **/
+  --color-text-caption: #6b6b6b; /** Caption/Small Text (light) **/
+  --color-text-button: #121212; /** Button Text (light) **/
+
+  /** Code Styling (Syntax) **/
+  --color-syntax-comment: #7c6f64;
+  --color-syntax-punctuations: #665c54;
+  --color-syntax-tag: #458588;
+  --color-syntax-selector: #689d6a;
+  --color-syntax-property: #9d0006;
+  --color-syntax-attribute: #b57614;
+  --color-syntax-numeric: #8f3f71;
+  --color-syntax-string: #b57614;
+  --color-syntax-keyword: #9d0006;
+  --color-syntax-operator: #b57614;
+  --color-syntax-function: #458588;
+  --color-syntax-class: #8f3f71;
+
+  /** Code UI **/
+  --color-code-line-highlight: #fbf1c7; /** Code Line Highlight (light) **/
+  --color-code-line-number: #7c6f64;    /** Code Line Number (light) **/
+
+  /** Toolbar & Labels **/
+  --color-toolbar-background: #d6ece7; /** Toolbar Bg (light) **/
+  --color-language-label: #2e2e2e;     /** Language Label Text (light) **/
+}
+
+
+/**
+ * Variable: Brand Colors (Dark Theme)
+ * @description Brand color variables for dark theme.
+ */
+:root.dark {
+  /** Backgrounds **/
+  --color-background-base: #0f1917;    /** Overall Bg (dark) **/
+  --color-background-code: #282828;    /** Code Bg (dark) **/
+  --color-background-feature: #162422; /** Feature Bg (dark) **/
+  --color-background-banner: #1c2e2b;  /** Banner Bg (dark) **/
+
+  /** Accent **/
+  --color-accent: #4fb3b3; /** Accent Color (dark) **/
+
+  /** Status/Feedback **/
+  --color-feedback-success: #8fbc8f; /** Success Feedback (dark) **/
+  --color-feedback-warning: #ffcc66; /** Warning Feedback (dark) **/
+  --color-feedback-failure: #ff6b6b; /** Failure Feedback (dark) **/
+
+  /** Shadow Color **/
+  --color-shadow: 8, 12, 11; /** Shadow RGB (dark) **/
+
+  /** Text Colors **/
+  --color-text-heading: #e6f1f3; /** H1 - H6 Color (dark) **/
+  --color-text-body: #e0e0e0; /** Default body text color (dark) **/
+  --color-text-paragraph: #c4c4c4; /** Paragraph Color (dark) **/
+  --color-text-link: #4fb3b3; /** Link Text (dark) **/
+  --color-text-hover: #7fd9d9; /** Hover Text (dark) **/
+  --color-text-focus: #4fb3b3; /** Focus Text (dark) **/
+  --color-text-caption: #9a9a9a; /** Caption/Small Text (dark) **/
+  --color-text-button: #f8f8f8; /** Button Text (dark) **/
+
+  /** Code Styling (Syntax) **/
+  --color-syntax-comment: #928374;
+  --color-syntax-punctuations: #ebdbb2;
+  --color-syntax-tag: #83a598;
+  --color-syntax-selector: #b8bb26;
+  --color-syntax-property: #fb4934;
+  --color-syntax-attribute: #d65d0e;
+  --color-syntax-numeric: #d3869b;
+  --color-syntax-string: #fabd2f;
+  --color-syntax-keyword: #fb4934;
+  --color-syntax-operator: #fe8019;
+  --color-syntax-function: #83a598;
+  --color-syntax-class: #d3869b;
+
+  /** Code UI **/
+  --color-code-line-highlight: #3c3836; /** Code Line Highlight (dark) **/
+  --color-code-line-number: #928374;    /** Code Line Number (dark) **/
+
+  /** Toolbar & Labels **/
+  --color-toolbar-background: #1c2e2b; /** Toolbar Bg (dark) **/
+  --color-language-label: #e0e0e0;     /** Language Label Text (dark) **/
+}
