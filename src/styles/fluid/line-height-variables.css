@@ -1,0 +1,21 @@
+/**
+ * @file /src/styles/fluid/line-height-variables.css
+ * @description Variables for line heights.
+ */
+
+@layer base {
+
+/**
+ * Variables: Line Height
+ * @description Line height variables.
+ */
+:root {
+  /** Body Line Height **/
+  --line-height-body: 1.55;
+  /** Code Line Height **/
+  --line-height-code: 1.4;
+  /** Heading Line Height **/
+  --line-height-heading: 1.2;
+}
+
+}
