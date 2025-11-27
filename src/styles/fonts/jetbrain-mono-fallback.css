@@ -1,0 +1,161 @@
+/**
+ * @file src/styles/fonts/jetbrains-mono-fallback.css
+ *
+ * @description Fallback JetBrains Mono font declaration.
+ */
+
+@layer base {
+  
+/**
+ * Font: JetBrains Mono Fallback                            * * @description Fallback font face declaration of JetBrains Mono.
+ * This fallback font uses Courier New, then fine tune it for ZLS (Zero Layout Shift).
+ */
+
+/* Normal */
+@font-face {
+  /* Font family name */
+  font-family: "JetBrains Mono Fallback";
+  /* Static Font */
+  font-weight: 400;
+  /* Style */
+  font-style: normal;
+  /* Modern preferred display, priortizing UX via FOUT. */
+  font-display: swap;
+
+  /* Metrics for ZLS (Kept your original values) */
+  size-adjust: 104.9229%;
+  ascent-override: 102%;
+  descent-override: 30%;
+  line-gap-override: 0%;
+
+  /* Font files */
+  src:
+       /* Windows/General Monospace Fallback */
+       local("Courier New"),
+       local("CourierNew"),
+       local("CourierNewPSMT"),
+
+       /* macOS & iOS Monospace Fallback */
+       local("Courier New MT"),
+       local("Courier"),
+
+       /* Linux Monospace Fallback */
+       local("Liberation Mono"), /* Linux standard monospace */
+       local("LiberationMono"),
+       local("LiberationMono-Regular"),
+
+       /* Android Monospace Fallback */
+       local("Cousine"), /* Metric equivalent to Courier New/Liberation Mono */
+       local("Cousine-Regular"),
+       local("Cousine Regular");
+}
+
+/* Italic */
+@font-face {
+  /* Font family name */
+  font-family: "JetBrains Mono Fallback";
+  /* Static Font */
+  font-weight: 400;
+  /* Style */
+  font-style: italic;
+  /* Modern preferred display, priortizing UX via FOUT. */
+  font-display: swap;
+
+  /* Metrics for ZLS (Kept your original values) */
+  size-adjust: 104.9229%;
+  ascent-override: 102%;
+  descent-override: 30%;
+  line-gap-override: 0%;
+
+  /* Font files */
+  src:
+       /* Windows/General Monospace Fallback */
+       local("Courier New Italic"),
+       local("CourierNewPS-ItalicMT"),
+       local("CourierNew-Italic"),
+
+       /* macOS & iOS Monospace Fallback */
+       local("Courier Oblique"),
+
+       /* Linux Monospace Fallback */
+       local("Liberation Mono Italic"),
+       local("LiberationMono-Italic"),
+
+       /* Android Monospace Fallback */
+       local("Cousine Italic"),
+       local("Cousine-Italic");
+}
+
+/* Bold */
+@font-face {
+  /* Font family name */
+  font-family: "JetBrains Mono Fallback";
+  /* Static Font */
+  font-weight: 700;
+  /* Style */
+  font-style: normal;
+  /* Modern preferred display, priortizing UX via FOUT. */
+  font-display: swap;
+
+  /* Metrics for ZLS (Kept your original values) */
+  size-adjust: 104.7925;
+  ascent-override: 102%;
+  descent-override: 30%;
+  line-gap-override: 0%;
+
+  /* Font files */
+  src:
+       /* Windows/General Monospace Fallback */
+       local("Courier New Bold"),
+       local("CourierNewPS-BoldMT"),
+       local("CourierNew-Bold"),
+
+       /* macOS & iOS Monospace Fallback */
+       local("Courier Bold"),
+
+       /* Linux Monospace Fallback */
+       local("Liberation Mono Bold"),
+       local("LiberationMono-Bold"),
+
+       /* Android Monospace Fallback */
+       local("Cousine Bold"),
+       local("Cousine-Bold");
+}
+
+/* Bold Italic */
+@font-face {
+  /* Font family name */
+  font-family: "JetBrains Mono Fallback";
+  /* Static Font */
+  font-weight: 700;
+  /* Style */
+  font-style: italic;
+  /* Modern preferred display, priortizing UX via FOUT. */
+  font-display: swap;
+
+  /* Metrics for ZLS (Kept your original values) */
+  size-adjust: 104.7925;
+  ascent-override: 102%;
+  descent-override: 30%;
+  line-gap-override: 0%;
+
+  /* Font files */
+  src:
+       /* Windows/General Monospace Fallback */
+       local("Courier New Bold Italic"),
+       local("CourierNewPS-BoldItalicMT"),
+       local("CourierNew-BoldItalic"),
+
+       /* macOS & iOS Monospace Fallback */
+       local("Courier Bold Oblique"),
+
+       /* Linux Monospace Fallback */
+       local("Liberation Mono Bold Italic"),
+       local("LiberationMono-BoldItalic"),
+
+       /* Android Monospace Fallback */
+       local("Cousine Bold Italic"),
+       local("Cousine-BoldItalic");
+}
+
+}
