@@ -4,7 +4,7 @@
  * @description Clasees file for font stack.
  */
 
-@layer base {
+@layer utilities {
 
 /* Font stack classes */
 .font-body { font-family: var(--font-stack-body); }
